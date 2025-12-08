@@ -5,7 +5,8 @@
       "originalURL","postURL"
     ],
     "reportURL": "https://www.instagram.com/help/ipreporting/report/copyright/",
-    "supportPage": "https://help.instagram.com/277982542336146/"
+    "supportPage": "https://help.instagram.com/277982542336146/",
+    "instructions": "An account is required to use the report form."
   }, {
     "service": "Bluesky",
     "requirements": [
@@ -62,6 +63,15 @@
     ],
     "supportPage": "https://help.x.com/en/rules-and-policies/copyright-policy",
     "reportURL": "https://help.x.com/forms/ipi"
+  },
+  {
+    "service": "Facebook",
+    "requirements": [
+      "originalURL","postURL"
+    ],
+    "supportPage": "https://www.facebook.com/help/1020633957973118/",
+    "reportURL": "https://www.facebook.com/help/ipreporting/report/copyright",
+    "instructions": "An account is required to use the report form."
   },
   {
     "service": "Mastodon",
