@@ -2,8 +2,8 @@ import data from "./data.json"
 
 const mapping = {
   "originalURL": "Original work URL",
-  "postURL": "Infringing URL",
-  "mustBeHolder": "Must be reported by rights holder/creator"
+  "originalURL?": "Original work URL (optional on form, encouraged though)",
+  "postURL": "Infringing URL"
 }
 
 export default {
