@@ -15,7 +15,7 @@ export default {
     
     for (const block of json_data) {
       let sub = `<h2 id=${encodeURI(block.service)}>${block.service}</h2>`
-      toc = `${toc}<li><a href="#${encodeURI(block.service)}">On ${block.service}</a></li>`
+      toc = `${toc}<li><a href="#${encodeURI(block.service)}">${block.service}</a></li>`
 
       if (block.requirements) {
         sub = `${sub}<p>You will need on hand:<ul>`
@@ -40,7 +40,7 @@ export default {
       r = `${r}${sub}<br />`
     }
 
-    toc = `<ul>${toc}</ul>`
+    toc = `<ul id="table-of-contents">${toc}</ul>`
 
     r = `
     <!DOCTYPE html>
@@ -59,7 +59,54 @@ export default {
     <meta property="twitter:description" content="A collection of platforms with copyright report links to take back what is yours!" />
     <style>
     html { 
-      font-family: sans-serif; 
+      font-family: sans-serif;
+      position: relative;
+      top: 0;
+      left: 0;
+      margin: 1em;
+      width: calc(100vw - 2em);
+    }
+
+    body {
+      margin: 0 auto;
+      max-width: 60em;
+      padding-bottom: 2em;
+    }
+
+    ul#table-of-contents {
+      display: grid;
+      grid: auto-flow / 1fr 1fr 1fr 1fr;
+      list-style: none;
+
+      padding: 0;
+      border: 1px solid #ddd;
+
+      & > li {
+        display: block;
+        width: 100%;
+        height: 2.2em;
+
+        border: 1px solid #ddd;
+
+        & > a {
+          display: flex;
+          width: 100%;
+          height: 100%;
+
+          text-align: center;
+
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      & > li:nth-child(even) {
+        background-color: #fefefe;
+      }
+
+      & > li:hover {
+        background-color: rgba(255, 255, 174, 1);
+      }
     }
     </style>
     </head>
