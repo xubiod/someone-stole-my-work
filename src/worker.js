@@ -67,11 +67,13 @@ export default {
     <h1>Someone stole my work!</h1>
     <p>Theft is very ICKY, and you can use copyright to get back what is yours!</p>
     <p><em>Do note that copyright takedowns are a legal process, and as such you will need your legal information in many cases to make claims.</em></p>
+    <p><em>Something missing/wrong? <a href="https://github.com/xubiod/someone-stole-my-work/issues">Make an issue on GitHub</a>.</em></p>
+    <hr />
       ${toc}
       <hr />
       ${r}
       <footer>
-        Compiled together by Xubiod.
+        Compiled together by Xubiod. <a href="https://github.com/xubiod/someone-stole-my-work">Source code</a>.
       </footer>
     </body>
     </html>`
