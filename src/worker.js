@@ -47,6 +47,9 @@ export default {
     <html>
     <head>
     <title>Someone stole my work!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta name="description" content="A collection to platforms with copyright report links to take back what is yours!" />
     <meta name="author" content="Xubiod" />
     <meta name="creator" content="Xubiod" />
