@@ -47,6 +47,14 @@
     "reportURL": "https://support.reddithelp.com/hc/requests/new?ticket_form_id=16510899084308",
     "supportPage": "https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview"
   }, {
+    "service": "X (formerly Twitter)",
+    "requirements": [
+      "postURL"
+    ],
+    "supportPage": "https://help.x.com/en/rules-and-policies/copyright-policy",
+    "reportURL": "https://help.x.com/forms/ipi"
+  },
+  {
     "service": "Mastodon",
     "instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
   }
