@@ -47,6 +47,15 @@
     "reportURL": "https://support.reddithelp.com/hc/requests/new?ticket_form_id=16510899084308",
     "supportPage": "https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview"
   }, {
+    "service": "Tumblr",
+    "requirements": [
+      "postURL",
+      "originalURL?"
+    ],
+    "supportPage": "https://www.tumblr.com/policy/en/terms-of-service#dmca",
+    "reportURL": "https://www.tumblr.com/dmca"
+  },
+  {
     "service": "X (formerly Twitter)",
     "requirements": [
       "postURL"
