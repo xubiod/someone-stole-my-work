@@ -72,6 +72,11 @@
     "supportPage": "https://www.facebook.com/help/1020633957973118/",
     "reportURL": "https://www.facebook.com/help/ipreporting/report/copyright",
     "instructions": "An account is required to use the report form."
+  }, {
+    "service": "GitHub",
+    "instructions": "With the nature of open source software, there are some specific elements that must be considered first. Read the support article in full to make sure your request is valid fist. GitHub always publishes all DMCA complaints publicly at https://github.com/github/dmca .",
+    "supportPage": "https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy",
+    "reportURL": "https://github.com/contact/dmca"
   },
   {
     "service": "Mastodon",
