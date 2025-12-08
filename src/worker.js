@@ -14,8 +14,8 @@ export default {
 		const json_data = JSON.parse(data)
     
     for (const block of json_data) {
-      let sub = `<h2 id=${block.service}>${block.service}</h2>`
-      toc = `${toc}<li><a href="#${block.service}">On ${block.service}</a></li>`
+      let sub = `<h2 id=${encodeURI(block.service)}>${block.service}</h2>`
+      toc = `${toc}<li><a href="#${encodeURI(block.service)}">On ${block.service}</a></li>`
 
       if (block.requirements) {
         sub = `${sub}<p>You will need on hand:<ul>`
