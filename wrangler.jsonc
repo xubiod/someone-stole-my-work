@@ -1,0 +1,97 @@
+{
+  "name": "someone-stole-my-work",
+  "main": "src/worker.js",
+  "workers_dev": true,
+  "preview_urls": false,
+  "compatibility_date": "2025-12-08",
+  "compatibility_flags": [
+    "enable_nodejs_fs_module"
+  ],
+  "routes": [
+    {
+      "pattern": "someonestolemy.work",
+      "zone_name": "someonestolemy.work",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+  },
+  "vars": {
+    "name": "ev_paths",
+    "json": [
+      {
+        "reportURL": "https://www.instagram.com/help/ipreporting/report/copyright/",
+        "requirements": [
+          "originalURL",
+          "postURL"
+        ],
+        "service": "Instagram",
+        "supportPage": "https://help.instagram.com/277982542336146/"
+      },
+      {
+        "reportURL": "https://docs.google.com/forms/d/e/1FAIpQLSc4EzXFaEkm1y3eu7cHyfb2YXqu9QRZB63KB9VXBaniJzqO8A/viewform",
+        "requirements": [
+          "originalURL",
+          "postURL"
+        ],
+        "service": "Bluesky",
+        "supportPage": "https://bsky.social/about/support/copyright"
+      },
+      {
+        "instructions": "Go to your YouTube Studio (studio.youtube.com), navigate to \"Content detection\", then make a new removal request. You will need the infringing video(s).",
+        "reportURL": "https://www.youtube.com/copyright_complaint_form",
+        "requirements": [
+          "postURL"
+        ],
+        "service": "YouTube",
+        "supportPage": "https://support.google.com/youtube/answer/2807622"
+      },
+      {
+        "instructions": "You can report on the post itself in-app. You can submit forms if the work was used in ads or the TikTok Shop with the link given.",
+        "reportURL": "https://www.tiktok.com/legal/report/Copyright",
+        "requirements": [
+          "postURL"
+        ],
+        "service": "TikTok",
+        "supportPage": "https://www.tiktok.com/support/faq_detail?id=7543604786688563768&category=web_account#4"
+      },
+      {
+        "instructions": "You can make a ticket through Discord Support, or send an e-mail.",
+        "reportURL": "https://support.discord.com/hc/requests/new?ticket_form_id=18954746269463",
+        "requirements": [
+          "postURL"
+        ],
+        "service": "Discord",
+        "supportPage": "https://support.discord.com/hc/en-us/articles/4410339349655-Discord-s-Copyright-IP-Policy"
+      },
+      {
+        "instructions": "You must e-mail Newgrounds directly.",
+        "service": "Newgrounds",
+        "supportPage": "https://www.newgrounds.com/wiki/help-information/dmca-notice"
+      },
+      {
+        "instructions": "You can make a ticket with Reddit Support.",
+        "reportURL": "https://support.reddithelp.com/hc/requests/new?ticket_form_id=16510899084308",
+        "service": "Reddit",
+        "supportPage": "https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview"
+      },
+      {
+        "instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
+        "service": "Mastodon"
+      }
+    ]
+  }
+}
