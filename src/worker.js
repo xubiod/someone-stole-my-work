@@ -1,3 +1,5 @@
+import data from "./data.json"
+
 const mapping = {
   "originalURL": "Original work URL",
   "postURL": "Infringing URL",
@@ -9,12 +11,9 @@ export default {
     let r = ""
     let toc = ""
 
-		const requestURL = new URL(request.url)
-		const path = requestURL.pathname.toLowerCase()
+		const json_data = JSON.parse(data)
     
-		const redirect_map = env.ev_paths
-    
-    for (const block of redirect_map) {
+    for (const block of json_data) {
       let sub = `<h2 id=${block.service}>${block.service}</h2>`
       toc = `${toc}<li><a href="#${block.service}">On ${block.service}</a></li>`
 

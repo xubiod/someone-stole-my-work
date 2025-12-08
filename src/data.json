@@ -1,0 +1,53 @@
+[
+  {
+    "service": "Instagram",
+    "requirements": [
+      "originalURL","postURL"
+    ],
+    "reportURL": "https://www.instagram.com/help/ipreporting/report/copyright/",
+    "supportPage": "https://help.instagram.com/277982542336146/"
+  }, {
+    "service": "Bluesky",
+    "requirements": [
+      "originalURL","postURL"
+    ],
+    "reportURL": "https://docs.google.com/forms/d/e/1FAIpQLSc4EzXFaEkm1y3eu7cHyfb2YXqu9QRZB63KB9VXBaniJzqO8A/viewform",
+    "supportPage": "https://bsky.social/about/support/copyright"
+  }, {
+    "service": "YouTube",
+    "requirements": [
+      "postURL"
+    ],
+    "instructions": "Go to your YouTube Studio (studio.youtube.com), navigate to \"Content detection\", then make a new removal request. You will need the infringing video(s).",
+    "reportURL": "https://www.youtube.com/copyright_complaint_form",
+    "supportPage":"https://support.google.com/youtube/answer/2807622"
+  }, {
+    "service": "TikTok",
+    "requirements": [
+      "postURL"
+    ],
+    "instructions": "You can report on the post itself in-app. You can submit forms if the work was used in ads or the TikTok Shop with the link given.",
+    "reportURL": "https://www.tiktok.com/legal/report/Copyright",
+    "supportPage": "https://www.tiktok.com/support/faq_detail?id=7543604786688563768&category=web_account#4"
+  }, {
+    "service": "Discord",
+    "requirements": [
+      "postURL"
+    ],
+    "instructions": "You can make a ticket through Discord Support, or send an e-mail.",
+    "supportPage": "https://support.discord.com/hc/en-us/articles/4410339349655-Discord-s-Copyright-IP-Policy",
+    "reportURL": "https://support.discord.com/hc/requests/new?ticket_form_id=18954746269463"
+  }, {
+    "service": "Newgrounds",
+    "instructions": "You must e-mail Newgrounds directly.",
+    "supportPage": "https://www.newgrounds.com/wiki/help-information/dmca-notice"
+  }, {
+    "service": "Reddit",
+    "instructions": "You can make a ticket with Reddit Support.",
+    "reportURL": "https://support.reddithelp.com/hc/requests/new?ticket_form_id=16510899084308",
+    "supportPage": "https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview"
+  }, {
+    "service": "Mastodon",
+    "instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
+  }
+]
