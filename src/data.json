@@ -77,7 +77,11 @@
     "instructions": "With the nature of open source software, there are some specific elements that must be considered first. Read the support article in full to make sure your request is valid fist. GitHub always publishes all DMCA complaints publicly at https://github.com/github/dmca with personal details removed.",
     "supportPage": "https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy",
     "reportURL": "https://github.com/contact/dmca"
-  }, 
+  }, {
+    "service": "Gitlab",
+    "supportPage": "https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/",
+    "instructions": "You must e-mail Gitlab directly."
+  },
   {
     "service": "Steam",
     "requirements": [
