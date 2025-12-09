@@ -173,6 +173,16 @@
 		"instructions": "DMCA claims are on the terms at item no. 10. You must send Cara an e-mail. Or a letter."
 	},
 	{
+		"service": "Artstation",
+		"requirements": [
+			"originalURL", "postURL"
+		],
+		"supportPage": "https://www.epicgames.com/site/en-US/infringement",
+		"reportURL": "https://www.epicgames.com/help/en-US/contact-us-copyright",
+		"email": "dmca@support.epicgames.com",
+		"instructions": "This is accessed directly on Epic Games' website. You can also send an e-mail or a letter."
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
 	}
