@@ -198,6 +198,15 @@
 		"instructions": "This form is very bare-bones, I recommend using the comments area like e-mailing another service with details."
 	},
 	{
+		"service": "Adobe (other)",
+		"requirements": [
+			"postURL"
+		],
+		"instructions": "This encompasses Behance, Adobe Commerce/Magento, Adobe Stock, and Adobe Express specifically. There is \"Other\" listed on the form.",
+		"supportPage": "https://www.adobe.com/legal/dmca.html",
+		"reportURL": "https://survey.adobe.com/jfe/form/SV_a3iwQO3jp990k2W"
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
 	}
