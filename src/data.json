@@ -144,6 +144,15 @@
 		"email": "copyright@patreon.com"
 	},
 	{
+		"service": "Vimeo",
+		"requirements": [
+			"postURL"
+		],
+		"supportPage": "https://vimeo.com/legal/policies/copyright",
+		"reportURL": "https://vimeo.com/dmca/claim",
+		"email": "dmca@vimeo.com"
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
 	}
