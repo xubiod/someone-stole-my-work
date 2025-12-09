@@ -90,6 +90,10 @@
     "supportPage": "https://store.steampowered.com/legal/",
     "reportURL": "https://steamcommunity.com/dmca/create",
     "instructions": "No account is needed, but you can say copyrighted material is only authorized for specific Steam accounts."
+  }, {
+    "service": "itch.io",
+    "instructions": "You must e-mail itch.io directly.",
+    "supportPage": "https://itch.io/docs/legal/terms#6-digital-millennium-copyright-act"
   },
   {
     "service": "Mastodon",
