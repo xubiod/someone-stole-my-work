@@ -37,11 +37,13 @@
     ],
     "instructions": "You can make a ticket through Discord Support, or send an e-mail.",
     "supportPage": "https://support.discord.com/hc/en-us/articles/4410339349655-Discord-s-Copyright-IP-Policy",
-    "reportURL": "https://support.discord.com/hc/requests/new?ticket_form_id=18954746269463"
+    "reportURL": "https://support.discord.com/hc/requests/new?ticket_form_id=18954746269463",
+    "email": "copyright@discord.com"
   }, {
     "service": "Newgrounds",
     "instructions": "You must e-mail Newgrounds directly.",
-    "supportPage": "https://www.newgrounds.com/wiki/help-information/dmca-notice"
+    "supportPage": "https://www.newgrounds.com/wiki/help-information/dmca-notice",
+    "email": "tom@newgrounds.com"
   }, {
     "service": "Reddit",
     "instructions": "You can make a ticket with Reddit Support.",
@@ -54,7 +56,8 @@
       "originalURL?"
     ],
     "supportPage": "https://www.tumblr.com/policy/en/terms-of-service#dmca",
-    "reportURL": "https://www.tumblr.com/dmca"
+    "reportURL": "https://www.tumblr.com/dmca",
+    "email": " dmca@tumblr.com"
   },
   {
     "service": "X (formerly Twitter)",
@@ -76,11 +79,13 @@
     "service": "GitHub",
     "instructions": "With the nature of open source software, there are some specific elements that must be considered first. Read the support article in full to make sure your request is valid fist. GitHub always publishes all DMCA complaints publicly at https://github.com/github/dmca with personal details removed.",
     "supportPage": "https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy",
-    "reportURL": "https://github.com/contact/dmca"
+    "reportURL": "https://github.com/contact/dmca",
+    "email": "copyright@github.com"
   }, {
     "service": "Gitlab",
     "supportPage": "https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/",
-    "instructions": "You must e-mail Gitlab directly."
+    "instructions": "You must e-mail Gitlab directly.",
+    "email": "dmca@gitlab.com"
   },
   {
     "service": "Steam",
@@ -93,15 +98,18 @@
   }, {
     "service": "itch.io",
     "instructions": "You must e-mail itch.io directly.",
-    "supportPage": "https://itch.io/docs/legal/terms#6-digital-millennium-copyright-act"
+    "supportPage": "https://itch.io/docs/legal/terms#6-digital-millennium-copyright-act",
+    "email": "support@itch.io"
   }, {
     "service": "Gamejolt",
     "supportPage": "https://gamejolt.com/terms",
-    "instructions": "There's no fragment link, but refer to no. 11 on the ToS. You must e-mail Gamejolt directly. Or send a letter."
+    "instructions": "There's no fragment link, but refer to no. 11 on the ToS. You must e-mail Gamejolt directly. Or send a letter.",
+    "email": "contact@gamejolt.com"
   }, {
     "service": "Roblox",
     "supportPage": "https://devforum.roblox.com/t/how-to-file-a-dmca-claim/1463008",
-    "instructions": "This seems to be a non-official post about copyright claims, but ultimately you must e-mail Roblox directly."
+    "instructions": "This seems to be a non-official post about copyright claims, but ultimately you must e-mail Roblox directly.",
+    "email": "copyright_agent@roblox.com"
   },
   {
     "service": "Mastodon",
