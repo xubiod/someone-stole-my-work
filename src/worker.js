@@ -38,7 +38,7 @@ export default {
       }
 
       if (block.email) {
-        sub = `${sub}<p><a href="mailto:${block.email}?subject=%5BDMCA+Notice%5D>Send e-mail</a></p>`
+        sub = `${sub}<p><a href="mailto:${block.email}?subject=DMCA+Takedown+Request>Send e-mail</a></p>`
       }
 
       r = `${r}${sub}<br />`
