@@ -189,6 +189,15 @@
 		"instructions": "You need a DeviantArt account that is already logged in to access the report form."
 	},
 	{
+		"service": "Adobe Portfolio",
+		"requirements": [
+			"postURL"
+		],
+		"reportURL": "https://portfolio.adobe.com/report-abuse",
+		"supportPage": "https://www.adobe.com/legal/dmca.html",
+		"instructions": "This form is very bare-bones, I recommend using the comments area like e-mailing another service with details."
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
 	}
