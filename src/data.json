@@ -183,6 +183,12 @@
 		"instructions": "This is accessed directly on Epic Games' website. You can also send an e-mail or a letter."
 	},
 	{
+		"service": "DeviantArt",
+		"supportPage": "https://www.deviantartsupport.com/kb/en/article/the-copyright-policy",
+		"reportURL": "https://help.deviantart.com/dmca",
+		"instructions": "You need a DeviantArt account that is already logged in to access the report form."
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
 	}
