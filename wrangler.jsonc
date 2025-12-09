@@ -12,6 +12,11 @@
       "pattern": "someonestolemy.work",
       "zone_name": "someonestolemy.work",
       "custom_domain": true
+    }, 
+    {
+      "pattern": "copyright.xubiod.net",
+      "zone_name": "xubiod.net",
+      "custom_domain": true
     }
   ],
   "observability": {
