@@ -37,6 +37,10 @@ export default {
         sub = `${sub}<p><a href="${block.supportPage}" rel="noopener noreferrer">Support page</a></p>`
       }
 
+      if (block.email) {
+        sub = `${sub}<p><a href="mailto:${block.email}?subject=%5BDMCA+Notice%5D>Send e-mail</a></p>`
+      }
+
       r = `${r}${sub}<br />`
     }
 
