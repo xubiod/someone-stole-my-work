@@ -7,7 +7,8 @@
 		],
 		"reportURL": "https://www.instagram.com/help/ipreporting/report/copyright/",
 		"supportPage": "https://help.instagram.com/277982542336146/",
-		"instructions": "An account is required to use the report form."
+		"instructions": "An account is required to use the report form.",
+		"icons": ["fa-brands fa-instagram", "fa-brands fa-threads"]
 	},
 	{
 		"service": "Bluesky",
@@ -16,7 +17,8 @@
 			"postURL"
 		],
 		"reportURL": "https://docs.google.com/forms/d/e/1FAIpQLSc4EzXFaEkm1y3eu7cHyfb2YXqu9QRZB63KB9VXBaniJzqO8A/viewform",
-		"supportPage": "https://bsky.social/about/support/copyright"
+		"supportPage": "https://bsky.social/about/support/copyright",
+		"icons": ["fa-brands fa-bluesky"]
 	},
 	{
 		"service": "YouTube",
@@ -25,7 +27,8 @@
 		],
 		"instructions": "Go to your YouTube Studio (studio.youtube.com), navigate to \"Content detection\", then make a new removal request. You will need the infringing video(s).",
 		"reportURL": "https://www.youtube.com/copyright_complaint_form",
-		"supportPage": "https://support.google.com/youtube/answer/2807622"
+		"supportPage": "https://support.google.com/youtube/answer/2807622",
+		"icons": ["fa-brands fa-youtube"]
 	},
 	{
 		"service": "TikTok",
@@ -34,7 +37,8 @@
 		],
 		"instructions": "You can report on the post itself in-app. You can submit forms if the work was used in ads or the TikTok Shop with the link given.",
 		"reportURL": "https://www.tiktok.com/legal/report/Copyright",
-		"supportPage": "https://www.tiktok.com/support/faq_detail?id=7543604786688563768&category=web_account#4"
+		"supportPage": "https://www.tiktok.com/support/faq_detail?id=7543604786688563768&category=web_account#4",
+		"icons": ["fa-brands fa-tiktok"]
 	},
 	{
 		"service": "Discord",
@@ -44,19 +48,22 @@
 		"instructions": "You can make a ticket through Discord Support, or send an e-mail.",
 		"supportPage": "https://support.discord.com/hc/en-us/articles/4410339349655-Discord-s-Copyright-IP-Policy",
 		"reportURL": "https://support.discord.com/hc/requests/new?ticket_form_id=18954746269463",
-		"email": "copyright@discord.com"
+		"email": "copyright@discord.com",
+		"icons": ["fa-brands fa-discord"]
 	},
 	{
 		"service": "Newgrounds",
 		"instructions": "You must e-mail Newgrounds directly.",
 		"supportPage": "https://www.newgrounds.com/wiki/help-information/dmca-notice",
-		"email": "tom@newgrounds.com"
+		"email": "tom@newgrounds.com",
+		"icons": ["fa-solid fa-city"]
 	},
 	{
 		"service": "Reddit",
 		"instructions": "You can make a ticket with Reddit Support.",
 		"reportURL": "https://support.reddithelp.com/hc/requests/new?ticket_form_id=16510899084308",
-		"supportPage": "https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview"
+		"supportPage": "https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview",
+		"icons": ["fa-brands fa-reddit"]
 	},
 	{
 		"service": "Tumblr",
@@ -66,7 +73,8 @@
 		],
 		"supportPage": "https://www.tumblr.com/policy/en/terms-of-service#dmca",
 		"reportURL": "https://www.tumblr.com/dmca",
-		"email": " dmca@tumblr.com"
+		"email": " dmca@tumblr.com",
+		"icons": ["fa-brands fa-tumblr"]
 	},
 	{
 		"service": "X (formerly Twitter)",
@@ -74,7 +82,8 @@
 			"postURL"
 		],
 		"supportPage": "https://help.x.com/en/rules-and-policies/copyright-policy",
-		"reportURL": "https://help.x.com/forms/ipi"
+		"reportURL": "https://help.x.com/forms/ipi",
+		"icons": ["fa-brands fa-x-twitter", "fa-brands fa-twitter"]
 	},
 	{
 		"service": "Facebook",
@@ -84,20 +93,23 @@
 		],
 		"supportPage": "https://www.facebook.com/help/1020633957973118/",
 		"reportURL": "https://www.facebook.com/help/ipreporting/report/copyright",
-		"instructions": "An account is required to use the report form."
+		"instructions": "An account is required to use the report form.",
+		"icons": ["fa-brands fa-facebook"]
 	},
 	{
 		"service": "GitHub",
 		"instructions": "With the nature of open source software, there are some specific elements that must be considered first. Read the support article in full to make sure your request is valid fist. GitHub always publishes all DMCA complaints publicly at https://github.com/github/dmca with personal details removed.",
 		"supportPage": "https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy",
 		"reportURL": "https://github.com/contact/dmca",
-		"email": "copyright@github.com"
+		"email": "copyright@github.com",
+		"icons": ["fa-brands fa-github"]
 	},
 	{
 		"service": "Gitlab",
 		"supportPage": "https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/",
 		"instructions": "You must e-mail Gitlab directly.",
-		"email": "dmca@gitlab.com"
+		"email": "dmca@gitlab.com",
+		"icons": ["fa-brands fa-gitlab"]
 	},
 	{
 		"service": "Steam",
@@ -106,25 +118,29 @@
 		],
 		"supportPage": "https://store.steampowered.com/legal/",
 		"reportURL": "https://steamcommunity.com/dmca/create",
-		"instructions": "No account is needed, but you can say copyrighted material is only authorized for specific Steam accounts."
+		"instructions": "No account is needed, but you can say copyrighted material is only authorized for specific Steam accounts.",
+		"icons": ["fa-brands fa-steam"]
 	},
 	{
 		"service": "itch.io",
 		"instructions": "You must e-mail itch.io directly.",
 		"supportPage": "https://itch.io/docs/legal/terms#6-digital-millennium-copyright-act",
-		"email": "support@itch.io"
+		"email": "support@itch.io",
+		"icons": ["fa-brands fa-itch-io"]
 	},
 	{
 		"service": "Gamejolt",
 		"supportPage": "https://gamejolt.com/terms",
 		"instructions": "There's no fragment link, but refer to no. 11 on the ToS. You must e-mail Gamejolt directly. Or send a letter.",
-		"email": "contact@gamejolt.com"
+		"email": "contact@gamejolt.com",
+		"icons": ["fa-solid fa-gamepad"]
 	},
 	{
 		"service": "Roblox",
 		"supportPage": "https://devforum.roblox.com/t/how-to-file-a-dmca-claim/1463008",
 		"instructions": "This seems to be a non-official post about copyright claims, but ultimately you must e-mail Roblox directly.",
-		"email": "copyright_agent@roblox.com"
+		"email": "copyright_agent@roblox.com",
+		"icons": ["fa-solid fa-cube"]
 	},
 	{
 		"service": "Ko-fi",
@@ -132,7 +148,8 @@
 			"postURL"
 		],
 		"supportPage": "https://help.ko-fi.com/hc/en-us/articles/10598202486429-Copyright-Guidelines",
-		"instructions": "You must report on an infringing account directly. Click on the ellipsis (...) -> \"Report Abuse\" -> \"Copyright issue\" -> Fill out the form."
+		"instructions": "You must report on an infringing account directly. Click on the ellipsis (...) -> \"Report Abuse\" -> \"Copyright issue\" -> Fill out the form.",
+		"icons": ["fa-solid fa-mug-hot"]
 	},
 	{
 		"service": "Patreon",
@@ -141,7 +158,8 @@
 		],
 		"supportPage": "https://www.patreon.com/policy/copyright",
 		"reportURL": "https://support.patreon.com/hc/en-us/requests/new?ticket_form_id=360000054452",
-		"email": "copyright@patreon.com"
+		"email": "copyright@patreon.com",
+		"icons": ["fa-brands fa-patreon"]
 	},
 	{
 		"service": "Vimeo",
@@ -150,7 +168,8 @@
 		],
 		"supportPage": "https://vimeo.com/legal/policies/copyright",
 		"reportURL": "https://vimeo.com/dmca/claim",
-		"email": "dmca@vimeo.com"
+		"email": "dmca@vimeo.com",
+		"icons": ["fa-brands fa-vimeo"]
 	},
 	{
 		"service": "Pinterest",
@@ -158,19 +177,22 @@
 			"originalURL", "postURL"
 		],
 		"supportPage": "https://policy.pinterest.com/en/copyright",
-		"reportURL": "https://www.pinterest.com/about/copyright/dmca-pin/"
+		"reportURL": "https://www.pinterest.com/about/copyright/dmca-pin/",
+		"icons": ["fa-brands fa-pinterest"]
 	},
 	{
 		"service": "Internet Archive",
 		"supportPage": "https://archive.org/about/terms",
 		"email": "info@archive.org",
-		"instructions": "The copyright policy is near the bottom of the terms page. You must e-mail The Internet Archive directly. Or send a letter."
+		"instructions": "The copyright policy is near the bottom of the terms page. You must e-mail The Internet Archive directly. Or send a letter.",
+		"icons": ["fa-solid fa-book"]
 	},
 	{
 		"service": "Cara",
 		"supportPage": "https://cara.app/terms",
 		"email": "DMCA@cara.app",
-		"instructions": "DMCA claims are on the terms at item no. 10. You must send Cara an e-mail. Or a letter."
+		"instructions": "DMCA claims are on the terms at item no. 10. You must send Cara an e-mail. Or a letter.",
+		"icons": ["fa-solid fa-paintbrush"]
 	},
 	{
 		"service": "Artstation",
@@ -180,13 +202,15 @@
 		"supportPage": "https://www.epicgames.com/site/en-US/infringement",
 		"reportURL": "https://www.epicgames.com/help/en-US/contact-us-copyright",
 		"email": "dmca@support.epicgames.com",
-		"instructions": "This is accessed directly on Epic Games' website. You can also send an e-mail or a letter."
+		"instructions": "This is accessed directly on Epic Games' website. You can also send an e-mail or a letter.",
+		"icons": ["fa-brands fa-artstation"]
 	},
 	{
 		"service": "DeviantArt",
 		"supportPage": "https://www.deviantartsupport.com/kb/en/article/the-copyright-policy",
 		"reportURL": "https://help.deviantart.com/dmca",
-		"instructions": "You need a DeviantArt account that is already logged in to access the report form."
+		"instructions": "You need a DeviantArt account that is already logged in to access the report form.",
+		"icons": ["fa-brands fa-deviantart"]
 	},
 	{
 		"service": "Adobe Portfolio",
@@ -195,19 +219,22 @@
 		],
 		"reportURL": "https://portfolio.adobe.com/report-abuse",
 		"supportPage": "https://www.adobe.com/legal/dmca.html",
-		"instructions": "This form is very bare-bones, I recommend using the comments area like e-mailing another service with details."
+		"instructions": "This form is very bare-bones, I recommend using the comments area like e-mailing another service with details.",
+		"icons": ["fa-solid fa-briefcase"]
 	},
 	{
-		"service": "Adobe (other)",
+		"service": "Adobe (Behance, other)",
 		"requirements": [
 			"postURL"
 		],
 		"instructions": "This encompasses Behance, Adobe Commerce/Magento, Adobe Stock, and Adobe Express specifically. There is \"Other\" listed on the form.",
 		"supportPage": "https://www.adobe.com/legal/dmca.html",
-		"reportURL": "https://survey.adobe.com/jfe/form/SV_a3iwQO3jp990k2W"
+		"reportURL": "https://survey.adobe.com/jfe/form/SV_a3iwQO3jp990k2W",
+		"icons": ["fa-brands fa-behance"]
 	},
 	{
 		"service": "Mastodon",
-		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
+		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
+		"icons": ["fa-brands fa-mastodon"]
 	}
 ]

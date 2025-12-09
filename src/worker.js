@@ -14,8 +14,17 @@ export default {
 		const json_data = JSON.parse(data)
     
     for (const block of json_data) {
-      let sub = `<h2 id=${encodeURI(block.service)}>${block.service}</h2>`
-      toc = `${toc}<li><a href="#${encodeURI(block.service)}">${block.service}</a></li>`
+      let icon = ""
+
+      if (block.icons) {
+        for (const icon_classes of block.icons) {
+          icon = `${icon}<i class="icons ${icon_classes}"></i>`
+        }
+        icon = `<span class="icon-span">${icon}</span> `
+      }
+
+      let sub = `<h2 id=${encodeURI(block.service)}>${icon}${block.service}</h2>`
+      toc = `${toc}<li><a href="#${encodeURI(block.service)}">${icon}<span class="text-span">${block.service}</span></a></li>`
 
       if (block.requirements) {
         sub = `${sub}<p>You will need on hand:<ul>`
@@ -99,7 +108,7 @@ export default {
       & > li {
         display: block;
         width: 100%;
-        height: 2.2em;
+        height: 4em;
 
         border: 1px solid #ddd;
 
@@ -108,10 +117,22 @@ export default {
           width: 100%;
           height: 100%;
 
+          flex-direction: column;
+
           text-align: center;
 
           align-items: center;
           justify-content: center;
+
+          text-decoration: none;
+
+          & > span.icon-span {
+            font-size: 24pt;
+          }
+
+          & > span.text-span {
+            text-decoration: underline;
+          }
         }
       }
 
@@ -153,7 +174,13 @@ export default {
         background-color: rgba(255, 255, 174, 1);
       }
     }
+
+    i.icons {
+      color: black;
+      text-decoration: none;
+    }
     </style>
+    <script src="https://kit.fontawesome.com/ea7ca75325.js" crossorigin="anonymous"></script>
     </head>
     <body>
     <h1>Someone stole my work!</h1>
@@ -163,6 +190,7 @@ export default {
     <p><em>Something missing/wrong? <a href="https://github.com/xubiod/someone-stole-my-work/issues">Make an issue on GitHub</a>. In many cases searching "[service] copyright claim" in a search engine will give you what you need as well.</em></p>
     <hr />
       ${toc}
+      <p><sub>Brand icons provided by <a href="https://fontawesome.com/" rel="noopener noreferrer">Font Awesome</a>. If a brand icon was missing, another generic one is used instead.</sub></p>
       <hr />
       ${r}
       <footer>
