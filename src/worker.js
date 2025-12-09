@@ -29,17 +29,25 @@ export default {
         sub = `${sub}<p>${block.instructions}</p>`
       }
 
+      let links = ``
+
       if (block.reportURL) {
-        sub = `${sub}<p><a href="${block.reportURL}" rel="noopener noreferrer">Report form</a></p>`
+        links = `${links}<li><a href="${block.reportURL}" rel="noopener noreferrer">Report form</a></li>`
       }
 
       if (block.supportPage) {
-        sub = `${sub}<p><a href="${block.supportPage}" rel="noopener noreferrer">Support page</a></p>`
+        links = `${links}<li><a href="${block.supportPage}" rel="noopener noreferrer">Support page</a></li>`
       }
 
       if (block.email) {
-        sub = `${sub}<p><a href="mailto:${block.email}?subject=DMCA+Takedown+Request>Send e-mail</a></p>`
+        links = `${links}<li><a href="mailto:${block.email}?subject=DMCA Takedown Request">Send e-mail</a></li>`
       }
+
+      if (links.length > 0) {
+        links = `<ul class="link-list">${links}</ul>`
+      }
+
+      sub = `${sub}${links}`
 
       r = `${r}${sub}<br />`
     }
@@ -109,6 +117,36 @@ export default {
 
       & > li:nth-child(even) {
         background-color: #fefefe;
+      }
+
+      & > li:hover {
+        background-color: rgba(255, 255, 174, 1);
+      }
+    }
+
+    ul.link-list {
+      display: flex;
+
+      list-style: none;
+      padding: 0;
+
+      & > li {
+        width: 10em;
+        height: 2em;
+        border: 1px solid #ddd;
+
+        margin: 0 1em;
+
+        & > a {
+          display: flex;
+          width: 100%;
+          height: 100%;
+
+          text-align: center;
+
+          align-items: center;
+          justify-content: center;
+        }
       }
 
       & > li:hover {
