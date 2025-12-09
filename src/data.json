@@ -94,6 +94,10 @@
     "service": "itch.io",
     "instructions": "You must e-mail itch.io directly.",
     "supportPage": "https://itch.io/docs/legal/terms#6-digital-millennium-copyright-act"
+  }, {
+    "service": "Gamejolt",
+    "supportPage": "https://gamejolt.com/terms",
+    "instructions": "There's no fragment link, but refer to no. 11 on the ToS. You must e-mail Gamejolt directly. Or send a letter."
   },
   {
     "service": "Mastodon",
