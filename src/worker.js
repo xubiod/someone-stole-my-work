@@ -159,7 +159,7 @@ export default {
     <h1>Someone stole my work!</h1>
     <p>Theft is very ICKY, and you can use copyright to get back what is yours!</p>
     <p><em>Do note that copyright takedowns are a legal process, and as such you will need your legal information in many cases to make claims.</em></p>
-    <p><strong>Has someone sent you a false claim?</strong> Look at provided support pages for counter claims.</p>
+    <p><strong>Has someone sent you a false claim?</strong> Look at provided support pages for counter claims. <em>You must be fast though, within about a week of notification!</em></p>
     <p><em>Something missing/wrong? <a href="https://github.com/xubiod/someone-stole-my-work/issues">Make an issue on GitHub</a>. In many cases searching "[service] copyright claim" in a search engine will give you what you need as well.</em></p>
     <hr />
       ${toc}
