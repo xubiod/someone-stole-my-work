@@ -161,6 +161,12 @@
 		"reportURL": "https://www.pinterest.com/about/copyright/dmca-pin/"
 	},
 	{
+		"service": "Internet Archive",
+		"supportPage": "https://archive.org/about/terms",
+		"email": "info@archive.org",
+		"instructions": "The copyright policy is near the bottom of the terms page. You must e-mail The Internet Archive directly. Or send a letter."
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
 	}
