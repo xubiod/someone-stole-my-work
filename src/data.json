@@ -153,6 +153,14 @@
 		"email": "dmca@vimeo.com"
 	},
 	{
+		"service": "Pinterest",
+		"requirements": [
+			"originalURL", "postURL"
+		],
+		"supportPage": "https://policy.pinterest.com/en/copyright",
+		"reportURL": "https://www.pinterest.com/about/copyright/dmca-pin/"
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator."
 	}
