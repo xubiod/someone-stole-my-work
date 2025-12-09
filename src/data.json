@@ -98,6 +98,10 @@
     "service": "Gamejolt",
     "supportPage": "https://gamejolt.com/terms",
     "instructions": "There's no fragment link, but refer to no. 11 on the ToS. You must e-mail Gamejolt directly. Or send a letter."
+  }, {
+    "service": "Roblox",
+    "supportPage": "https://devforum.roblox.com/t/how-to-file-a-dmca-claim/1463008",
+    "instructions": "This seems to be a non-official post about copyright claims, but ultimately you must e-mail Roblox directly."
   },
   {
     "service": "Mastodon",
