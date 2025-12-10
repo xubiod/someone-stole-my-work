@@ -41,15 +41,15 @@ export default {
       let links = ``
 
       if (block.reportURL) {
-        links = `${links}<li><a href="${block.reportURL}" rel="noopener noreferrer">Report form</a></li>`
+        links = `${links}<li><a href="${block.reportURL}" rel="noopener noreferrer"><i class="icons fa-solid fa-clipboard-list"></i> <span class="text-span">Report form</span></a></li>`
       }
 
       if (block.supportPage) {
-        links = `${links}<li><a href="${block.supportPage}" rel="noopener noreferrer">Support page</a></li>`
+        links = `${links}<li><a href="${block.supportPage}" rel="noopener noreferrer"><i class="icons fa-solid fa-life-ring"></i> <span class="text-span">Support page</span></a></li>`
       }
 
       if (block.email) {
-        links = `${links}<li><a href="mailto:${block.email}?subject=DMCA Takedown Request">Send e-mail</a></li>`
+        links = `${links}<li><a href="mailto:${block.email}?subject=DMCA Takedown Request"><i class="icons fa-solid fa-envelope"></i> <span class="text-span">Send e-mail</span></a></li>`
       }
 
       if (links.length > 0) {
@@ -97,6 +97,14 @@ export default {
       padding-bottom: 2em;
     }
 
+    a {
+      text-decoration: none;
+      
+      & > span.text-span {
+        text-decoration: underline;
+      }
+    }
+
     ul#table-of-contents {
       display: grid;
       grid: auto-flow / 1fr 1fr 1fr 1fr;
@@ -128,10 +136,6 @@ export default {
 
           & > span.icon-span {
             font-size: 24pt;
-          }
-
-          & > span.text-span {
-            text-decoration: underline;
           }
         }
       }
