@@ -3,7 +3,8 @@ import data from "./data.json"
 const mapping = {
   "originalURL": "Original work URL",
   "originalURL?": "Original work URL (optional on form, encouraged though)",
-  "postURL": "Infringing URL"
+  "postURL": "Infringing URL",
+  "account": "An account on the service"
 }
 
 export default {

@@ -3,7 +3,8 @@
 		"service": "Instagram or Threads",
 		"requirements": [
 			"originalURL",
-			"postURL"
+			"postURL",
+			"account"
 		],
 		"reportURL": "https://www.instagram.com/help/ipreporting/report/copyright/",
 		"supportPage": "https://help.instagram.com/277982542336146/",
@@ -23,7 +24,8 @@
 	{
 		"service": "YouTube",
 		"requirements": [
-			"postURL"
+			"postURL",
+			"account"
 		],
 		"instructions": "Go to your YouTube Studio (studio.youtube.com), navigate to \"Content detection\", then make a new removal request. You will need the infringing video(s).",
 		"reportURL": "https://www.youtube.com/copyright_complaint_form",
@@ -89,7 +91,8 @@
 		"service": "Facebook",
 		"requirements": [
 			"originalURL",
-			"postURL"
+			"postURL",
+			"account"
 		],
 		"supportPage": "https://www.facebook.com/help/1020633957973118/",
 		"reportURL": "https://www.facebook.com/help/ipreporting/report/copyright",
@@ -210,6 +213,9 @@
 		"supportPage": "https://www.deviantartsupport.com/kb/en/article/the-copyright-policy",
 		"reportURL": "https://help.deviantart.com/dmca",
 		"instructions": "You need a DeviantArt account that is already logged in to access the report form.",
+		"requirements": [
+			"account"
+		],
 		"icons": ["fa-brands fa-deviantart"]
 	},
 	{
@@ -268,6 +274,9 @@
 		"instructions": "There is a Reporting Portal, and you are required to have an Etsy account to access it.",
 		"icons": [
 			"fa-brands fa-etsy"
+		],
+		"requirements": [
+			"account"
 		]
 	},
 	{
@@ -275,6 +284,9 @@
 		"supportPage": "https://www.twitch.tv/p/fr-ca/legal/dmca-guidelines/",
 		"reportURL": "https://www.twitch.tv/copyright-claims",
 		"instructions": "You need a Twitch account to access the report form.",
+		"requirements": [
+			"account"
+		],
 		"icons": [
 			"fa-brands fa-twitch"
 		]
