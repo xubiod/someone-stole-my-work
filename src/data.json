@@ -317,6 +317,18 @@
 		]
 	},
 	{
+		"service": "Neocities",
+		"supportPage": "https://neocities.org/terms",
+		"instructions": "The DMCA policy is at the bottom of the terms.",
+		"reportURL": "https://neocities.org/dmca",
+		"requirements": [
+			"postURL"
+		],
+		"icons": [
+			"fa-solid fa-cat"
+		]
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
 		"icons": ["fa-brands fa-mastodon"]
