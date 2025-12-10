@@ -239,7 +239,7 @@
 		],
 		"supportPage": "https://help.redbubble.com/hc/en-us/articles/201579195-Redbubble-IP-Publicity-Rights-Policy",
 		"reportURL": "https://help.redbubble.com/hc/en-us/requests/new?ticket_form_id=360000954531",
-		"instructions": "The support page states that URLs should follow this structure: <code>http://www.redbubble.com/people/[username]/works/[work number-name];</code>. An account is not needed.",
+		"instructions": "The support page states that URLs should follow a specific structure linking to the works under a username (NOT the products themselves, the actual WORK/DESIGN). The only difficult part is that it seems the support page is outdated with the link structure. An account is not needed.",
 		"email": "dmca@redbubble.com",
 		"icons": [
 			"fa-solid fa-shop"
