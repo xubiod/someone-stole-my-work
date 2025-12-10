@@ -271,6 +271,15 @@
 		]
 	},
 	{
+		"service": "Twitch",
+		"supportPage": "https://www.twitch.tv/p/fr-ca/legal/dmca-guidelines/",
+		"reportURL": "https://www.twitch.tv/copyright-claims",
+		"instructions": "You need a Twitch account to access the report form.",
+		"icons": [
+			"fa-brands fa-twitch"
+		]
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
 		"icons": ["fa-brands fa-mastodon"]
