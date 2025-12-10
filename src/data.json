@@ -285,6 +285,7 @@
 		"reportURL": "https://www.twitch.tv/copyright-claims",
 		"instructions": "You need a Twitch account to access the report form.",
 		"requirements": [
+			"postURL",
 			"account"
 		],
 		"icons": [
