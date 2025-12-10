@@ -183,6 +183,28 @@ export default {
       color: black;
       text-decoration: none;
     }
+
+    @media (width < 900px) {
+      ul#table-of-contents {
+        grid: auto-flow / 1fr 1fr 1fr 1fr;
+      }
+    }
+
+    @media (width < 700px) {
+      ul#table-of-contents > li {
+        height: 3.5em;
+      }
+
+      ul#table-of-contents > li > a > span.icon-span {
+        display: none;
+      }
+    }
+
+    @media (width < 600px) {
+      ul#table-of-contents {
+        grid: auto-flow / 1fr 1fr 1fr;
+      }
+    }
     </style>
     <script src="https://kit.fontawesome.com/ea7ca75325.js" crossorigin="anonymous"></script>
     </head>
