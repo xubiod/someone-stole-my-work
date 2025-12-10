@@ -293,6 +293,30 @@
 		]
 	},
 	{
+		"service": "Wordpress (Hosting)",
+		"supportPage": "https://wordpress.com/support/copyright-infringement-what-to-do/",
+		"instructions": "This is only applicable if the site is hosted BY WORDPRESS, not if a site is SELF-HOSTED using WordPress!",
+		"reportURL": "https://automattic.com/copyright-policy/",
+		"requirements": [
+			"postURL"
+		],
+		"icons": [
+			"fa-brands fa-wordpress"
+		]
+	},
+	{
+		"service": "Squarespace",
+		"supportPage": "https://support.squarespace.com/hc/en-us/articles/360002109308-Intellectual-property-and-Squarespace",
+		"requirements": [
+			"originalURL", "postURL"
+		],
+		"reportURL": "https://support.squarespace.com/hc/en-us/requests/new?ticket_form_id=5806104434445",
+		"instructions": "This is only applicable if the site is hosted BY SQUARESPACE, not if a domain uses it as a registrar!",
+		"icons": [
+			"fa-brands fa-squarespace"
+		]
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
 		"icons": ["fa-brands fa-mastodon"]
