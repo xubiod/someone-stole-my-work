@@ -213,7 +213,7 @@ export default {
     <p>Theft is very ICKY, and you can use copyright to get back what is yours!</p>
     <p><em>Do note that copyright takedowns are a legal process, and as such you will need your legal information in many cases to make claims. <strong>You are to be submitting claims in good faith, entirely correct, and under penalty of perjury if false.</strong></em></p>
     <p><strong>Has someone sent you a false claim?</strong> Look at provided support pages for counter claims. <em>You must be fast though, within about a week of notification!</em></p>
-    <p><em>Something missing/wrong? <a href="https://github.com/xubiod/someone-stole-my-work/issues">Make an issue on GitHub</a>. In many cases searching "[service] copyright claim" in a search engine will give you what you need as well.</em></p>
+    <p><em>Something missing/wrong? <a href="https://github.com/xubiod/someone-stole-my-work/issues" rel="noopener noreferrer">Make an issue on GitHub</a> or even <a href="https://bsky.app/profile/did:plc:gridi2vf2dxljbjfexnr2csu" rel="noopener noreferrer">ask me nicely on Bluesky</a>. In many cases searching "[service] copyright claim" in a search engine will give you what you need as well.</em></p>
     <hr />
       ${toc}
       <p><sub>Brand icons provided by <a href="https://fontawesome.com/" rel="noopener noreferrer">Font Awesome</a>. If a brand icon was missing, another generic one is used instead.</sub></p>
