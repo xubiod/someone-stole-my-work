@@ -105,6 +105,10 @@ export default {
       }
     }
 
+    p a {
+      text-decoration: underline;
+    }
+
     ul#table-of-contents {
       display: grid;
       grid: auto-flow / 1fr 1fr 1fr 1fr 1fr;
