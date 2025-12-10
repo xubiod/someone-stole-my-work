@@ -107,7 +107,7 @@ export default {
 
     ul#table-of-contents {
       display: grid;
-      grid: auto-flow / 1fr 1fr 1fr 1fr;
+      grid: auto-flow / 1fr 1fr 1fr 1fr 1fr;
       list-style: none;
 
       padding: 0;
@@ -116,7 +116,7 @@ export default {
       & > li {
         display: block;
         width: 100%;
-        height: 4em;
+        height: 4.5em;
 
         border: 1px solid #ddd;
 
