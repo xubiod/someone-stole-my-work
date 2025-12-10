@@ -262,6 +262,15 @@
 		"instructions": "This is a Google product. For the product listing, \"See more products\" -> \"Tenor\"."
 	},
 	{
+		"service": "Etsy",
+		"supportPage": "https://help.etsy.com/hc/en-us/articles/360000344448-How-to-Report-Intellectual-Property-Infringement",
+		"reportURL": "https://www.etsy.com/ipreporting",
+		"instructions": "There is a Reporting Portal, and you are required to have an Etsy account to access it.",
+		"icons": [
+			"fa-brands fa-etsy"
+		]
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
 		"icons": ["fa-brands fa-mastodon"]
