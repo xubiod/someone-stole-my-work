@@ -246,6 +246,22 @@
 		]
 	},
 	{
+		"service": "Google (Not YouTube)",
+		"reportURL": "https://support.google.com/legal/troubleshooter/1114905",
+		"instructions": "The form is very, VERY broad on Google products. You would select the product, report for \"Legal Reasons\" -> \"Intellectual Property\" -> \"Copyright\". Submissions must be repeated for each product if necessary.",
+		"icons": [
+			"fa-brands fa-google",
+			"fa-brands fa-waze",
+			"fa-brands fa-blogger"
+		]
+	},
+	{
+		"service": "Tenor",
+		"icons": ["fa-solid fa-film"],
+		"reportURL": "https://support.google.com/legal/troubleshooter/1114905",
+		"instructions": "This is a Google product. For the product listing, \"See more products\" -> \"Tenor\"."
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
 		"icons": ["fa-brands fa-mastodon"]
