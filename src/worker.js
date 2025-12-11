@@ -92,6 +92,15 @@ export default {
       width: calc(100vw - 2em);
     }
 
+    h2 {
+      font-size: 1.5em;
+
+      & > i.icons {
+        width: 1.5em;
+        height: 1.5em;
+      }
+    }
+
     body {
       margin: 0 auto;
       max-width: 60em;
@@ -141,6 +150,12 @@ export default {
 
           & > span.icon-span {
             font-size: 24pt;
+            height: 24pt;
+
+            & > i.icons {
+              width: 24pt;
+              height: 24pt;
+            }
           }
         }
       }
