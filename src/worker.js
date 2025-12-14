@@ -25,7 +25,7 @@ export default {
         icon = `<span class="icon-span">${icon}</span> `
       }
 
-      let sub = `<h2 id=${encodeURI(block.service)}>${icon}${block.service}</h2>`
+      let sub = `<section class="page-item"><h2 id=${encodeURI(block.service)}>${icon}${block.service}</h2>`
       toc = `${toc}<li><a href="#${encodeURI(block.service)}">${icon}<span class="text-span">${block.service}</span></a></li>`
 
       if (block.requirements) {
@@ -58,9 +58,9 @@ export default {
         links = `<ul class="link-list">${links}</ul>`
       }
 
-      sub = `${sub}${links}`
+      sub = `${sub}${links}</section>`
 
-      r = `${r}${sub}<br />`
+      r = `${r}${sub}`
     }
 
     toc = `<ul id="table-of-contents">${toc}</ul>`
