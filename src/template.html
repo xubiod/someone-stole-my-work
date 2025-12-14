@@ -162,6 +162,24 @@
                 grid: auto-flow / 1fr 1fr 1fr;
             }
         }
+
+        details > h3, details > p {
+            padding-left: 1em;
+        }
+
+        details {
+            border: 1px solid #ddd;
+            padding: 0.5em;
+        }
+
+        details[open] > summary {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5em;
+        }
+
+        section.page-item {
+            padding: 0.25em 0;
+        }
     </style>
     <script src="https://kit.fontawesome.com/ea7ca75325.js" crossorigin="anonymous"></script>
 </head>
@@ -170,10 +188,21 @@
     <h1>Someone stole my work!</h1>
     <p>Theft is very ICKY, and you can use copyright to get back what is yours!</p>
     <p><em>Do note that copyright takedowns are a legal process, and as such you will need your legal information in
-            many cases to make claims. <strong>You are to be submitting claims in good faith, entirely correct, and
+            many cases to make claims. <strong title="See &quot;Some other questions&quot; for a little more elaboration about the perjury part.">You are to be submitting claims in good faith, entirely correct, and
                 under penalty of perjury if false.</strong></em></p>
-    <p><strong>Has someone sent you a false claim?</strong> Look at provided support pages for counter claims. <em>You
-            must be fast though, within about a week of notification!</em></p>
+    <p>
+    <details>
+        <summary>Some other questions</summary>
+        <h3>I got a false claim!</h3>
+        <p>Support pages can have details about submitting counter-claims, and some just use the same method as a normal
+            claim. <em>You should be fast though about submitting the counter claim!</em>
+        </p>
+        <h3>Perjury?</h3>
+        <p>Since DMCA takedowns are a legal process, yes: if you lie in your takedown request you can be subject to the
+            penalty of perjury. Further details are dependent on jurisdiction, but don't risk it.
+        </p>
+    </details>
+    </p>
     <p><em>Something missing/wrong? <a href="https://github.com/xubiod/someone-stole-my-work/issues"
                 rel="noopener noreferrer">Make an issue on GitHub</a> or even <a
                 href="https://bsky.app/profile/did:plc:gridi2vf2dxljbjfexnr2csu" rel="noopener noreferrer">ask me nicely
@@ -186,7 +215,8 @@
     <hr />
     {{{r}}}
     <footer>
-        Compiled together by Xubiod. <a href="https://github.com/xubiod/someone-stole-my-work">Open source and public domain</a>.
+        Compiled together by Xubiod. <a href="https://github.com/xubiod/someone-stole-my-work">Open source and public
+            domain</a>.
     </footer>
 </body>
 
