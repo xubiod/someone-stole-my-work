@@ -163,16 +163,27 @@
             }
         }
 
-        details > h3, details > p {
-            padding-left: 1em;
+        details>h3,
+        details>p {
+            padding: 0 1em;
         }
 
         details {
             border: 1px solid #ddd;
-            padding: 0.5em;
         }
 
-        details[open] > summary {
+        details>summary {
+            user-select: none;
+            cursor: pointer;
+
+            padding: 0.5em;
+
+            &:hover {
+                background-color: rgba(255, 255, 174, 1);
+            }
+        }
+
+        details[open]>summary {
             border-bottom: 1px solid #ddd;
             padding-bottom: 0.5em;
         }
@@ -188,11 +199,13 @@
     <h1>Someone stole my work!</h1>
     <p>Theft is very ICKY, and you can use copyright to get back what is yours!</p>
     <p><em>Do note that copyright takedowns are a legal process, and as such you will need your legal information in
-            many cases to make claims. <strong title="See &quot;Some other questions&quot; for a little more elaboration about the perjury part.">You are to be submitting claims in good faith, entirely correct, and
+            many cases to make claims. <strong
+                title="See &quot;Some other questions&quot; for a little more elaboration about the perjury part.">You
+                are to be submitting claims in good faith, entirely correct, and
                 under penalty of perjury if false.</strong></em></p>
     <p>
     <details>
-        <summary>Some other questions</summary>
+        <summary>Some other questions <sub><em>(click to expand/collapse)</em></sub></summary>
         <h3>I got a false claim!</h3>
         <p>Support pages can have details about submitting counter-claims, and some just use the same method as a normal
             claim. <em>You should be fast though about submitting the counter claim!</em>
@@ -201,6 +214,17 @@
         <p>Since DMCA takedowns are a legal process, yes: if you lie in your takedown request you can be subject to the
             penalty of perjury. Further details are dependent on jurisdiction, but don't risk it.
         </p>
+        <h3>I saw someone else's work stolen, can I report it through these methods?</h3>
+        <p>No, you cannot. Copyright claims can only be made by the copyright holder themselves, or on their behalf of
+            an organization or client. Try to tell them about it through other means.</p>
+        <h3>The person who stole from me has a larger following than me, why bother?</h3>
+        <p>Does not matter, still do it anyway. There are some clips on a YouTube channel called <a
+                href="https://www.youtube.com/@jjjacksfilms" rel="noopener noreferrer" target="_blank"
+                title="Opens in a new tab.">JJJacksfilms <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            about watchers of his stream get stolen content deleted from larger channels in real time. Easily notable
+            example is SSSniperwolf.</p>
+        <p><sub>Jackfilms did not request or in any way directly influence this inclusion other than start doing this
+                kind of thing before I did. Oops</sub></p>
     </details>
     </p>
     <p><em>Something missing/wrong? <a href="https://github.com/xubiod/someone-stole-my-work/issues"
