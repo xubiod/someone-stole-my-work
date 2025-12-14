@@ -20,10 +20,6 @@
     <meta property="twitter:description"
         content="A collection of platforms with copyright report links to take back what is yours!" />
     <style>
-        :root {
-            --highlight-color: rgba(255, 255, 174, 1);
-        }
-
         html {
             font-family: sans-serif;
             position: relative;
@@ -106,7 +102,7 @@
             }
 
             &>li:hover {
-                background-color: var(--highlight-color);
+                background-color: rgba(255, 255, 174, 1);
             }
         }
 
@@ -136,7 +132,7 @@
             }
 
             &>li:hover {
-                background-color: var(--highlight-color);
+                background-color: rgba(255, 255, 174, 1);
             }
         }
 
@@ -183,7 +179,7 @@
             padding: 0.5em;
 
             &:hover {
-                background-color: var(--highlight-color);
+                background-color: rgba(255, 255, 174, 1);
             }
         }
 
@@ -200,8 +196,6 @@
             html {
                 color: #ddd;
                 background-color: #222;
-
-                --highlight-color: rgb(83, 83, 58) !important;
             }
 
             i.icons {
@@ -232,6 +226,12 @@
             ul#table-of-contents,
             ul#table-of-contents>li {
                 border-color: #555;
+            }
+
+            details>summary:hover,
+            ul#table-of-contents>li:hover,
+            ul.link-list>li:hover {
+                background-color: rgb(83, 83, 58);
             }
         }
     </style>
