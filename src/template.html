@@ -20,6 +20,38 @@
     <meta property="twitter:description"
         content="A collection of platforms with copyright report links to take back what is yours!" />
     <style>
+        :root {
+            --background-color: white;
+            --color: black;
+
+            --borders: #ddd;
+
+            --toc-evens-background: #fefefe;
+
+            --highlighted: rgb(255, 255, 174);
+
+            --anchor-link: blue;
+            --anchor-visited: purple;
+            --anchor-active: red;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #222;
+                --color: #ddd;
+
+                --borders: #555;
+
+                --toc-evens-background: #252525;
+
+                --highlighted: rgb(83, 83, 58);
+
+                --anchor-link: rgb(141, 211, 234);;
+                --anchor-visited: rgb(195, 141, 234);
+                --anchor-active: rgb(213, 115, 115);;
+            }
+        }
+
         html {
             font-family: sans-serif;
             position: relative;
@@ -27,6 +59,9 @@
             left: 0;
             margin: 1em;
             width: calc(100vw - 2em);
+
+            background-color: var(--background-color);
+            color: var(--color);
         }
 
         h2 {
@@ -62,14 +97,14 @@
             list-style: none;
 
             padding: 0;
-            border: 1px solid #ddd;
+            border: 1px solid var(--borders);
 
             &>li {
                 display: block;
                 width: 100%;
                 height: 4.5em;
 
-                border: 1px solid #ddd;
+                border: 1px solid var(--borders);
 
                 &>a {
                     display: flex;
@@ -98,11 +133,11 @@
             }
 
             &>li:nth-child(even) {
-                background-color: #fefefe;
+                background-color: var(--toc-evens-background);
             }
 
             &>li:hover {
-                background-color: rgba(255, 255, 174, 1);
+                background-color: var(--highlighted);
             }
         }
 
@@ -115,7 +150,7 @@
             &>li {
                 width: 10em;
                 height: 2em;
-                border: 1px solid #ddd;
+                border: 1px solid var(--borders);
 
                 margin: 0 1em;
 
@@ -132,12 +167,12 @@
             }
 
             &>li:hover {
-                background-color: rgba(255, 255, 174, 1);
+                background-color: var(--highlighted);
             }
         }
 
         i.icons {
-            color: black;
+            color: var(--color);
             text-decoration: none;
         }
 
@@ -169,7 +204,7 @@
         }
 
         details {
-            border: 1px solid #ddd;
+            border: 1px solid var(--borders);
         }
 
         details>summary {
@@ -179,12 +214,12 @@
             padding: 0.5em;
 
             &:hover {
-                background-color: rgba(255, 255, 174, 1);
+                background-color: var(--highlighted);
             }
         }
 
         details[open]>summary {
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid var(--borders);
             padding-bottom: 0.5em;
         }
 
@@ -192,46 +227,17 @@
             padding: 0.25em 0;
         }
 
-        @media (prefers-color-scheme: dark) {
-            html {
-                color: #ddd;
-                background-color: #222;
+        a {
+            &:link {
+                color: var(--anchor-link);
             }
 
-            i.icons {
-                color: #ddd;
+            &:visited {
+                color: var(--anchor-visited);
             }
 
-            ul#table-of-contents>li:nth-child(even) {
-                background-color: #252525;
-            }
-
-            a {
-                &:link {
-                    color: rgb(141, 211, 234);
-                }
-
-                &:visited {
-                    color: rgb(195, 141, 234)
-                }
-
-                &:active {
-                    color: rgb(213, 115, 115);
-                }
-            }
-
-            details[open]>summary,
-            details,
-            ul.link-list>li,
-            ul#table-of-contents,
-            ul#table-of-contents>li {
-                border-color: #555;
-            }
-
-            details>summary:hover,
-            ul#table-of-contents>li:hover,
-            ul.link-list>li:hover {
-                background-color: rgb(83, 83, 58);
+            &:active {
+                color: var(--anchor-active);
             }
         }
     </style>
