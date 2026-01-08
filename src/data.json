@@ -329,6 +329,15 @@
 		]
 	},
 	{
+		"service": "Unvale",
+		"supportPage": "https://unvale.io/terms-of-service",
+		"email": "support@unvale.io",
+		"instructions": "You must email Unvale directly, following the items listed on number 8 of the terms. Or send a letter.",
+		"icons": [
+			"fa-solid fa-person"
+		]
+	},
+	{
 		"service": "Mastodon",
 		"instructions": "This will be very complicated, and would be done on a per-instance basis. Contact and/or e-mail the instance adminstrator.",
 		"icons": ["fa-brands fa-mastodon"]
